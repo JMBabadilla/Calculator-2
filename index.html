@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="calculator">
+        <input type="text" id="calc_field" name="calc_field"><br>
+        <input type="button" name="one" id="one" value="1" onclick="calculator.calc_field.value += '1' ">
+        <input type="button" name="two" id="two" value="2" onclick="calculator.calc_field.value += '2' ">
+        <input type="button" name="add" id="add" value="+" onclick="calculator.calc_field.value += '+' ">
+        <input type="button" name="erase" id="erase" value="c" onclick="calculator.calc_field.value ='' ">
+        <input type="button" name="equal" id="equal" value="="  onclick = "calculator.calc_field.value = (eval(calculator.calc_field.value)) ">
+
+        
+        
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
